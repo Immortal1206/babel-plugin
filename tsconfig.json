@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext"
+    ],
+    "target": "ESNext",
+    "outDir": "./dist",
+    "module": "CommonJS",
+    "sourceMap": true,
+    "types": [
+      "node"
+    ],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "rootDir": "./src",
+    "baseUrl": ".",
+  },
+  "exclude": [
+    "dist",
+  ],
+  "include": [
+    "src/*/*.ts"
+  ]
+}
