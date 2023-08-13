@@ -123,5 +123,22 @@
         "**/node_modules/**"
       ]
     },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "mangle compress plugin",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/dist/mangle-compress-plugin/test.js",
+      "outFiles": [
+        "${workspaceFolder}/dist/**/*.js"
+      ],
+      "console": "integratedTerminal",
+      "resolveSourceMapLocations": [
+        "${workspaceFolder}/**",
+        "**/node_modules/**"
+      ]
+    },
   ]
 }
