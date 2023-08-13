@@ -1,5 +1,6 @@
 import { transformFromAstSync } from '@babel/core'
 import { parse } from '@babel/parser'
+
 import { EqLint } from '.'
 
 const sourceCode = `
