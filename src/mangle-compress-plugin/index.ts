@@ -1,4 +1,4 @@
-import { NodePath } from '@babel/core'
+import type { NodePath } from '@babel/core'
 import { declare } from '@babel/helper-plugin-utils'
 
 const base54 = (function () {
